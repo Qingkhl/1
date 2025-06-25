@@ -1,0 +1,98 @@
+dataset:
+  name: AES
+  path: ../datasets/AES
+  domains:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+  target_domain: 1
+  adv: True
+  adv_class: True
+  kl_div: False
+
+plm:
+  model_name: bert
+  model_path: ../bert
+#  model_name: roberta
+#  model_path: ../roberta-base
+  optimize:
+    freeze_para: True
+    lr: 0.00003 #0.00001
+    weight_decay: 0.01
+    scheduler:
+      type: 
+      num_warmup_steps: 500
+
+dataloader:
+  max_seq_length: 512
+
+train:
+  batch_size: 4
+  num_epochs: 30
+
+test:
+  batch_size: 32
+
+dev:
+  batch_size: 32
+
+checkpoint:
+  save_best: True
+
+
+template: soft_manual_template
+verbalizer: soft_verbalizer
+
+soft_manual_template:
+  choice: 28  # (1,10):14 (5,10):15 (10,10):16 (15,10):17 (20,10) 18 (1,15):19 (5,15):20 (10,15):21 (15,15):22 (20,15) 23 (1,20):24 (5,20):25 (10,20):26 (15,20):27 (20,20) 28 # (1,5):29 (5,5):30 (10,5):31 (15,5):32 (20,5) 33
+  file_path: ../scripts/TextClassification/mnli/soft_manual_template.txt
+  optimize:
+    lr: 0.003 #0.003
+    weight_decay: 0.0
+    scheduler:
+      num_warmup_steps: 0
+
+manual_verbalizer:
+  choice: 0
+  file_path: ../scripts/TextClassification/mnli/multiwords_verbalizer.jsonl
+
+soft_verbalizer:
+  choice: 1
+#  file_path: ../scripts/TextClassification/mnli/multiwords_verbalizer.jsonl
+
+
+environment:
+  num_gpus: 4
+  cuda_visible_devices:
+    - 0
+    - 1
+    - 2
+    - 3
+  local_rank: 0
+
+learning_setting: full
+logging:
+  path: ../yaml
+
+#few_shot:
+#  parent_config: learning_setting
+#  few_shot_sampling: sampling_from_train
+
+#sampling_from_train:
+#  parent_config: few_shot_sampling
+#  num_examples_per_label: 10
+#  also_sample_dev: True
+#  num_examples_per_label_dev: 10
+#  seed: 123
+
+task: classification
+classification:
+  parent_config: task
+  metric:  # the first one will be the main  to determine checkpoint.
+    - accuracy  # whether the higher metric value is better.
+  loss_function: cross_entropy ## the loss function for classification

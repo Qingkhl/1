@@ -1,0 +1,124 @@
+calibrate: null
+checkpoint:
+  higher_better: true
+  save_best: true
+  save_lastest: true
+classification:
+  auto_t: false
+  auto_v: false
+  generation_epoch: 10
+  loss_function: cross_entropy
+  metric:
+  - accuracy
+  parent_config: task
+dataloader:
+  decoder_max_length: 256
+  max_seq_length: 510
+  truncate_method: head
+dataset:
+  adv: false
+  adv_class: false
+  domains:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  kl_div: false
+  name: AES
+  path: ../datasets/AES
+  target_domain: 5
+dev:
+  batch_size: 32
+  shuffle_data: false
+environment:
+  cuda_visible_devices:
+  - 0
+  - 1
+  - 2
+  - 3
+  local_rank: 0
+  num_gpus: 4
+learning_setting: full
+logging:
+  console_level: INFO
+  datetime_format: '%y%m%d%H%M%S'
+  file_level: NOTSET
+  overwrite: true
+  path: ../yaml
+  path_base: ./logs
+  unique_string: null
+  unique_string_keys:
+  - dataset.name
+  - plm.model_path
+  - template
+  - verbalizer
+  - datetime
+plm:
+  model_name: bert
+  model_path: ../bert
+  optimize:
+    betas:
+    - 0.9
+    - 0.999
+    eps: 1.0e-08
+    freeze_para: true
+    lr: 3.0e-05
+    name: AdamW
+    no_decay:
+    - bias
+    - LayerNorm.weight
+    scheduler:
+      num_warmup_steps: 500
+      type: null
+    weight_decay: 0.01
+  specials_to_add:
+  - <pad>
+reproduce:
+  cuda_seed: -1
+  numpy_seed: -1
+  random_seed: -1
+  seed: 100
+  torch_seed: -1
+soft_manual_template:
+  choice: 0
+  file_path: ../scripts/TextClassification/mnli/soft_manual_template.txt
+  optimize:
+    lr: 0.003
+    scheduler:
+      num_warmup_steps: 0
+    weight_decay: 0.0
+soft_verbalizer:
+  choice: 0
+task: classification
+template: soft_manual_template
+template_generator:
+  beam_width: 5
+  length_limit: null
+  max_length: 20
+  plm:
+    model_name: t5
+    model_path: null
+    specials_to_add:
+    - <pad>
+  target_number: 2
+test:
+  batch_size: 32
+  shuffle_data: false
+train:
+  batch_size: 32
+  gradient_accumulation_steps: 1
+  max_grad_norm: -1.0
+  num_epochs: 30
+  shuffle_data: true
+  teacher_forcing: false
+verbalizer: soft_verbalizer
+verbalizer_generator:
+  candidate_num: 1
+  label_word_num_per_class: 1
+  normalize: true
+  score_fct: llr
+

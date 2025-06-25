@@ -1,0 +1,39 @@
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <text_a>
+<soft>Which <soft>level <soft>does <soft>this <soft>essay <soft>belong <soft>to <soft>? <soft> <soft> options : bad , medium , good , excellent ? <mask> . <text_a>
+<text_a> What level does this essay belong to ? It belongs to the <mask> level . options : < bad , medium , good , excellent > .
+<soft>this <soft>article <soft>belongs <soft>to <soft>the <mask> <soft>level <soft>. <soft>good <soft>bad <soft>excellent <soft>average <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft>this <soft>article <soft>belongs <soft>to <soft>the <mask> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <mask> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft>this <soft>article <soft>belongs <soft>to <soft>the <mask> <soft>level <soft>. <soft>good <soft>bad <soft>excellent <soft>average <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft>this <soft>article <soft>belongs <soft>to <soft>the <mask> <soft>level <soft>. <soft>good <soft>bad <soft>excellent <soft>average <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft>this <soft>article <soft>belongs <soft>to <soft>the <mask> <soft>level <soft>. <soft>good <soft>bad <soft>excellent <soft>average <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <mask> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <mask> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <text_a>
+<soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <mask> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <mask> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
+<soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <mask> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <soft> <text_a>
